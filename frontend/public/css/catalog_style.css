@@ -1,0 +1,299 @@
+
+section{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 16px;
+    box-shadow: -1px 1px 3px #333;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+section nav h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+section nav .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+section nav .row button{
+    width: 25px;
+    height: 25px;
+}
+
+section nav button{
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+section nav button:hover{
+    background-color: #c4c4c4;
+}
+
+nav .dark-button{
+    background-color: #121212;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+section .content{
+    top: 250px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    position: absolute;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 1px 1px 5px #14213d63;
+    padding: 8px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: .5s;
+}
+
+.card img{
+    border-radius: 15px;
+    width: 160px;
+    height: 180px;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.card h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.card .price{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.card .price .price-card{
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: #2a9d8f;
+}
+
+.card .price .material-symbols-outlined{
+    color: #c4c4c4;
+    font-size: 16px;
+}
+
+.card .price .small{
+    color: #c4c4c4;
+    font-size: 10px;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 10px #333;
+}
+
+.icon-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-button{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #2a9d8f;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buy-button:hover{
+    background-color: #1b7c71;
+}
+
+.buy-button .material-symbols-outlined{
+    font-size: 24px;
+}
+
+.disconect{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.disconect span{
+    font-size: 20vw;
+    color: #c4c4c4;
+}
+
+.disconect h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #c4c4c4;
+}
+
+
+.rank-category{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 500px;
+}
+
+.container-cards{
+    width: 100%;
+}
+
+.left{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.right{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #121212;
+    color: #fff;
+} 
+
+
+.rank-category .single-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0 100px;
+    margin-top: 25px;
+    padding: 8px 0px;
+}
+
+.rank-category .content-card{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.rank-category h2{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 2rem;
+}
+
+.rank-category h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+}
+
+.single-card img{
+    width: 250px;
+    border: 2px solid #000;
+}
+
+.column-justify{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    font-size: 0.9rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.single-card h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.single-card p{
+    font-family: 'Inter', sans-serif;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    line-height: 16px;
+    max-height: 150px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    transition: .5s;
+}
+
+.single-card .simple-text{
+    justify-self: flex-end;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+@media(max-width: 940px){
+    header .shop-navigate{
+        display: none;
+    }
+    section{
+        grid-template-columns: 100%;
+    }
+    section nav{
+        display: none;
+        width: 150px;
+        position: absolute;
+        background-color: #fff;
+    }
+    header ul .menu-mobile{
+        display: list-item;
+    }
+}
+
